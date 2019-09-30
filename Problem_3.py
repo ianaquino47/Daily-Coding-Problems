@@ -4,11 +4,11 @@
 
 # For example, given the following Node class
 
-# class Node:
-#     def __init__(self, val, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 # The following test should pass:
 
