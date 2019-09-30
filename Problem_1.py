@@ -12,3 +12,5 @@ def two_sum(lst, k):
             return True
         seen.add(num)
     return False
+
+

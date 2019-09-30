@@ -11,7 +11,8 @@ def products(nums):
     prefix_products = []
     for num in nums:
         if prefix_products:
-            prefix_products.append(prefix_products[-1] * num)
+            #last element of prefix_products * current_num
+            prefix_products.append(prefix_products[-1] * num) 
         else:
             prefix_products.append(num)
 
@@ -19,6 +20,7 @@ def products(nums):
     suffix_products = []
     for num in reversed(nums):
         if suffix_products:
+            #last element of prefix_products * current_num
             suffix_products.append(suffix_products[-1] * num)
         else:
             suffix_products.append(num)
