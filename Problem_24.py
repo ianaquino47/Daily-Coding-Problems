@@ -29,8 +29,8 @@ class LockingBinaryTreeNode(object):
             cur = cur.parent
         return True
 
-    def is_locked(self):
-        return self.is_locked
+    # def is_locked(self):
+    #     return self.is_locked
 
 
     def lock(self):
